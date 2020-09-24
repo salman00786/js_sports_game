@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Game Challenge</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+      <header>
+    <div>
+      <h1>EL CLASSICO</h1>
+      <audio id="audioSound"><source src="./assets/Audio/FOOTBALLKICK.mp3" type="audio/mp3"></audio>
+      <audio id="resetAudioSound"> <source src="./assets/Audio/8d82b5_Soccer_Whistle_Sound_Effect.mp3" type="audio/mp3"></audio>
+      <audio id="goalAudioSound"><source src="./assets/Audio/crowd-scream-goal_Myqs-u4__WM.mp3" type="audio/mp3"> </audio>
+      <div id="reset-container">
+        <button id="reset-button">RESET
+       </button><br />
+        NUMBER OF RESETS: <span id="num-resets">0</span><br><span id="winnerName"></span>
+      </div>
+    </header>
+      <div class="clear"></div>
+      <div id="leftPic">
+          <img id="realMadrid" src="./assets/Images/real-madrid-c-f-logo-png-transparent.png">
+      </div>
+      <div class="left">
+        <h2>Real Madrid</h2>
+        <div class="goals">
+          SHOTS TAKEN: <span id="teamone-numshots">0</span><br />
+          GOALS SCORED: <span id="teamone-numgoals">0</span>
+          
+        </div>
+        <div>
+          <button id="teamone-shoot-button">SHOOT</button>
+        </div>
+      </div>
+      <div id="rightPic">
+        <img id="barcelona" src="./assets/Images/wp3179044.png">
+      </div>
+      <div class="right">
+        <h2>Barcelona</h2>
+        <div class="goals">
+          SHOTS TAKEN: <span id="teamtwo-numshots">0</span><br />
+          GOALS SCORED: <span id="teamtwo-numgoals">0</span>
+        </div>
+        <div>
+          <button id="teamtwo-shoot-button" >SHOOT</button>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+      <!-- Link your JS file using the script tag -->
+  <script src="./assets/javascript/game.js"></script>
+</body>
+</html>
+  </body>
+</html>

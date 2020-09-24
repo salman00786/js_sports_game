@@ -1,0 +1,63 @@
+.hide {
+  display: none;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+#reset-container,
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: bisque;
+  position: relative;
+}
+
+.right {
+  margin-top: 20px;
+  margin-right: 320px;
+}
+.left {
+  margin-top: 115px;
+  margin-left: 400px;
+}
+#rightPic {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  left: 10px;
+  top: -95px;
+}
+#leftPic {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  left: 365px;
+  top: 10px;
+}
+#realMadrid {
+  position: relative;
+  height: 135px;
+  width: 140px;
+  top: 68px;
+  left: 10px;
+  background-color: bisque;
+}
+#barcelona {
+  position: relative;
+  height: 157px;
+  width: 225px;
+  top: -168px;
+  left: 980px;
+  background-color: bisque;
+}
+#winnerName {
+  font-weight: bold;
+}
